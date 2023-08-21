@@ -1,0 +1,5 @@
+export const about = [
+    "My name is Justin Adams. I am a recent graduate of the University of North Carolina at Chapel Hill with a B.S. in Computer Science and a minor in Statistics. I am currently working as an Associate Full Stack Software Engineer at Fidelity in Durham, NC. Most of my experience is in web development and its integration with backend systems. My goal is to never get complacent, and to continue to keep learning throughout my career.",
+    "Learn more about my experience and skills by downloading my resume, connecting with me on LinkedIn, or checking out my GitHub. Keep scrolling to see some technologies, frameworks, and languages that I have experience with.",
+    "I developed this website using React, JavaScript, HTML, and CSS. All of the content within this webpage is written by me.",
+];
