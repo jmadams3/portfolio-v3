@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link onClick={() => {
                     const about = document.getElementById("skills");
                     about.scrollIntoView({ behavior: "smooth", block: "center" });
-                }} className='desktopMenuItem' offset={-50}>Experience</Link>
+                }} className='desktopMenuItem' offset={-50}>Skills</Link>
             </div>
             <Fab className='desktopMenuButton' variant='extended' size='medium' sx={{
                 backgroundColor: '#1E1E1E',
@@ -43,9 +43,9 @@ const Navbar = () => {
             }} target='_blank'><FontAwesomeIcon icon="fa-regular fa-comment" />Contact Me</Fab>
             <img src={menu} alt='Menu' className='mobMenu' onClick={() => { setShowMenu(!showMenu) }}></img>
             <div className='navMenu' style={{ display: showMenu ? 'flex' : 'none' }}>
-                <Link to='intro' spy={true} smooth={true} duration={0} offset={-100} className='mobileMenuItem' onClick={() => { setShowMenu(!showMenu) }}>Home</Link>
+                <Link to='intro' spy={true} smooth={true} duration={0} className='mobileMenuItem' onClick={() => { setShowMenu(!showMenu) }}>Home</Link>
                 <Link to='about' spy={true} smooth={true} duration={0} className='mobileMenuItem' onClick={() => { setShowMenu(!showMenu) }}>About</Link>
-                <Link to='experience' spy={true} smooth={true} duration={0} className='mobileMenuItem' onClick={() => { setShowMenu(!showMenu) }}>Experience</Link>
+                <Link to='experience' spy={true} smooth={true} duration={0} className='mobileMenuItem' onClick={() => { setShowMenu(!showMenu) }}>Skills</Link>
             </div>
         </nav>
     )

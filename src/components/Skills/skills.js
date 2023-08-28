@@ -14,10 +14,10 @@ import sqllogo from '../../assets/MySQL-logo-vector-01.svg'
 const Skills = () => {
     return (
         <section id='skills'>
-            <span id='Experience' className='skillTitle'>Experience</span>
+            <span id='Experience' className='skillTitle'>Skills</span>
             <div className='skillBars'>
                 <div className='skillBar'>
-                    <img src={angularlogo} className='skillBarImg' />
+                    <img src={angularlogo} alt='' className='skillBarImg' />
                     <img src={reactlogo} alt='' className='skillBarImg' />
                     <img src={javalogo} alt='' className='skillBarImg' />
                     <img src={jslogo} alt='' className='skillBarImg' />
